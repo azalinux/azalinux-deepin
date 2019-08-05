@@ -98,4 +98,4 @@ sudo /usr/bin/vnclicense -add QXHZK-RNRVT-TE3RG-ARWFF-V7WQA
 
 sudo systemctl enable vncserver-x11-serviced
 
-#sudo systemctl enable NetworkManager
+sudo systemctl enable NetworkManager
