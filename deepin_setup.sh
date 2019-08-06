@@ -62,6 +62,8 @@ sudo pacman -S --noconfirm --needed ffmpegthumbnailer
 sudo pacman -S --noconfirm --needed gnome-disk-utility
 #sudo pacman -S --noconfirm --needed gnome-keyring
 
+sudo pacman -S --noconfirm --needed clamtk
+sudo pacman -S --noconfirm --needed firewalld
 sudo pacman -S --noconfirm --needed brasero
 sudo pacman -S --noconfirm --needed sysstat
 sudo pacman -S --noconfirm --needed screenfetch
@@ -113,6 +115,7 @@ trizen -S --noconfirm --needed --noedit realvnc-vnc-viewer
 #trizen -S --noconfirm --needed --noedit vlc-nightly
 trizen -S --noconfirm --needed --noedit inxi-git
 #trizen -S --noconfirm --needed --noedit isousb
+trizen -S --noconfirm --needed --noedit qjournalctl 
 
 #sh xfce_custom_desktop.sh
 
