@@ -53,9 +53,14 @@ sudo pacman -S --noconfirm --needed ffmpegthumbnailer
 sudo pacman -S --noconfirm --needed gnome-disk-utility
 #sudo pacman -S --noconfirm --needed gnome-keyring
 
-
+sudo pacman -S --noconfirm --needed brasero
+sudo pacman -S --noconfirm --needed sysstat
+sudo pacman -S --noconfirm --needed screenfetch
+sudo pacman -S --noconfirm --needed net-tools
+sudo pacman -S --noconfirm --needed lm_sensors
 sudo pacman -S --noconfirm --needed grub-customizer 
 sudo pacman -S --noconfirm --needed wget
+sudo pacman -S --noconfirm --needed hexchat
 sudo pacman -S --noconfirm --needed gimp
 sudo pacman -S --noconfirm --needed net-tools
 sudo pacman -S --noconfirm --needed htop
