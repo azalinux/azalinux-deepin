@@ -20,6 +20,7 @@ sudo pacman -S deepin deepin-extra --noconfirm --needed
 sudo pacman -S --noconfirm --needed xf86-video-amdgpu
 sudo pacman -S --noconfirm --needed lightdm
 sudo pacman -S --noconfirm --needed lightdm-gtk-greeter
+sudo pacman -S --noconfirm --needed networkmanager
 
 sudo pacman -S adobe-source-sans-pro-fonts --noconfirm --needed
 sudo pacman -S cantarell-fonts --noconfirm --needed
@@ -44,6 +45,9 @@ sudo pacman -S volumeicon --noconfirm --needed
 sudo pacman -S playerctl --noconfirm --needed
 
 sudo pacman -S --noconfirm --needed baobab
+sudo pacman -S --noconfirm --needed curl
+sudo pacman -S --noconfirm --needed dmidecode
+sudo pacman -S --noconfirm --needed glances
 sudo pacman -S --noconfirm --needed accountsservice
 sudo pacman -S --noconfirm --needed ffmpegthumbnailer
 sudo pacman -S --noconfirm --needed gnome-disk-utility
@@ -52,6 +56,7 @@ sudo pacman -S --noconfirm --needed gnome-disk-utility
 
 sudo pacman -S --noconfirm --needed grub-customizer 
 sudo pacman -S --noconfirm --needed wget
+sudo pacman -S --noconfirm --needed gimp
 sudo pacman -S --noconfirm --needed net-tools
 sudo pacman -S --noconfirm --needed htop
 sudo pacman -S --noconfirm --needed gtop
@@ -92,6 +97,7 @@ trizen -S --noconfirm --needed --noedit realvnc-vnc-server
 trizen -S --noconfirm --needed --noedit realvnc-vnc-viewer
 #trizen -S --noconfirm --needed --noedit vlc-nightly
 trizen -S --noconfirm --needed --noedit inxi-git
+#trizen -S --noconfirm --needed --noedit isousb
 
 #sh xfce_custom_desktop.sh
 
