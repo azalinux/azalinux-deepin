@@ -44,6 +44,15 @@ sudo pacman -S gst-plugins-good gst-plugins-bad gst-plugins-base gst-plugins-ugl
 sudo pacman -S volumeicon --noconfirm --needed
 sudo pacman -S playerctl --noconfirm --needed
 
+sudo pacman -S --noconfirm --needed cups cups-pdf
+sudo pacman -S ghostscript gsfonts gutenprint --noconfirm --needed
+sudo pacman -S gtk3-print-backends --noconfirm --needed
+sudo pacman -S libcups --noconfirm --needed
+sudo pacman -S hplip --noconfirm --needed
+sudo pacman -S system-config-printer --noconfirm --needed
+
+sudo systemctl enable org.cups.cupsd.service
+
 sudo pacman -S --noconfirm --needed baobab
 sudo pacman -S --noconfirm --needed curl
 sudo pacman -S --noconfirm --needed dmidecode
@@ -74,6 +83,7 @@ sudo pacman -S --noconfirm --needed meld
 sudo pacman -S --noconfirm --needed catfish
 sudo pacman -S --noconfirm --needed unace unrar zip unzip sharutils uudeview arj cabextract file-roller
 sudo pacman -S --noconfirm --needed firefox-developer-edition
+sudo pacman -S --noconfirm --needed thunderbird
 sudo pacman -S --noconfirm --needed qbittorrent
 sudo pacman -S --noconfirm --needed neofetch
 sudo pacman -S --noconfirm --needed chromium
@@ -106,7 +116,7 @@ trizen -S --noconfirm --needed --noedit inxi-git
 
 #sh xfce_custom_desktop.sh
 
-sudo /usr/bin/vnclicense -add QXHZK-RNRVT-TE3RG-ARWFF-V7WQA
+#sudo /usr/bin/vnclicense -add QXHZK-RNRVT-TE3RG-ARWFF-V7WQA
 
 sudo systemctl enable vncserver-x11-serviced
 
