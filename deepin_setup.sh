@@ -16,11 +16,13 @@ sudo pacman -S linux-headers --noconfirm --needed
 
 sudo pacman -S deepin deepin-extra --noconfirm --needed
 
+sudo pacman -S --noconfirm --needed firewalld
 #sudo pacman -S --noconfirm --needed xorg
 sudo pacman -S --noconfirm --needed xf86-video-amdgpu
 sudo pacman -S --noconfirm --needed lightdm
 sudo pacman -S --noconfirm --needed lightdm-gtk-greeter
 sudo pacman -S --noconfirm --needed networkmanager
+
 
 sudo pacman -S adobe-source-sans-pro-fonts --noconfirm --needed
 sudo pacman -S cantarell-fonts --noconfirm --needed
@@ -63,7 +65,6 @@ sudo pacman -S --noconfirm --needed gnome-disk-utility
 #sudo pacman -S --noconfirm --needed gnome-keyring
 
 sudo pacman -S --noconfirm --needed clamtk
-sudo pacman -S --noconfirm --needed firewalld
 sudo pacman -S --noconfirm --needed brasero
 sudo pacman -S --noconfirm --needed sysstat
 sudo pacman -S --noconfirm --needed screenfetch
