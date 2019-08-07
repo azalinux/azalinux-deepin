@@ -83,6 +83,8 @@ sudo pacman -S --noconfirm --needed filezilla
 sudo pacman -S --noconfirm --needed geany
 sudo pacman -S --noconfirm --needed meld
 sudo pacman -S --noconfirm --needed catfish
+sudo pacman -S --noconfirm --needed python-dbus
+#python-dbus needed to be installed for Deepin!#
 sudo pacman -S --noconfirm --needed unace unrar zip unzip sharutils uudeview arj cabextract file-roller
 sudo pacman -S --noconfirm --needed firefox-developer-edition
 sudo pacman -S --noconfirm --needed thunderbird
