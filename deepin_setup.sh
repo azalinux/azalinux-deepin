@@ -120,7 +120,7 @@ trizen -S --noconfirm --needed --noedit inxi-git
 #trizen -S --noconfirm --needed --noedit isousb
 trizen -S --noconfirm --needed --noedit qjournalctl 
 
-#sh xfce_custom_desktop.sh
+sh deepin_custom_setup.sh
 
 #sudo /usr/bin/vnclicense -add QXHZK-RNRVT-TE3RG-ARWFF-V7WQA
 
