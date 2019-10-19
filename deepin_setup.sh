@@ -137,7 +137,7 @@ trizen -S --noconfirm --needed --noedit qjournalctl
 
 sh deepin_custom_setup.sh
 
-#sudo /usr/bin/vnclicense -add QXHZK-RNRVT-TE3RG-ARWFF-V7WQA
+#sudo /usr/bin/vnclicense -add P98BK-34AF4-V2K63-TMBH8-BYNRA
 
 sudo systemctl enable vncserver-x11-serviced
 
