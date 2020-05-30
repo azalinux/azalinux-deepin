@@ -112,6 +112,7 @@ sudo pacman -S --noconfirm --needed elementary-icon-theme
 sudo pacman -S --noconfirm --needed adapta-gtk-theme
 sudo pacman -S --noconfirm --needed p7zip
 sudo pacman -S --noconfirm --needed bind-tools
+sudo pacman -S --noconfirm --needed nfs-utils
 
 sh lightdm.sh
 sh wallpaper.sh
