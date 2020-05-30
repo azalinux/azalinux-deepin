@@ -73,7 +73,8 @@ sudo pacman -S --noconfirm --needed accountsservice
 sudo pacman -S --noconfirm --needed ffmpegthumbnailer
 sudo pacman -S --noconfirm --needed gnome-disk-utility
 #sudo pacman -S --noconfirm --needed gnome-keyring
-
+sudo pacman -S --noconfirm --needed flameshot
+sudo pacman -S --noconfirm --needed smartmontools
 sudo pacman -S --noconfirm --needed clamtk
 sudo pacman -S --noconfirm --needed brasero
 sudo pacman -S --noconfirm --needed sysstat
@@ -110,7 +111,7 @@ sudo pacman -S --noconfirm --needed mpv
 sudo pacman -S --noconfirm --needed elementary-icon-theme
 sudo pacman -S --noconfirm --needed adapta-gtk-theme
 sudo pacman -S --noconfirm --needed p7zip
-
+sudo pacman -S --noconfirm --needed bind-tools
 
 sh lightdm.sh
 sh wallpaper.sh
@@ -122,7 +123,7 @@ sh trizen.sh
 echo "### Installing Vivaldi Snapshot ###"
 sh install-vivaldi.sh
 
-trizen -S --noconfirm --needed --noedit pamac-aur
+trizen -S --noconfirm --needed --noedit pamac-aur-git
 trizen -S --noconfirm --needed --noedit google-chrome-dev
 trizen -S --noconfirm --needed --noedit ocs-url
 #trizen -S --noconfirm --needed --noedit thunar-shares-plugin
