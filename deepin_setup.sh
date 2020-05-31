@@ -65,6 +65,7 @@ sudo pacman -S system-config-printer --noconfirm --needed
 
 sudo systemctl enable org.cups.cupsd.service
 
+sudo pacman -S --noconfirm --needed nano
 sudo pacman -S --noconfirm --needed baobab
 sudo pacman -S --noconfirm --needed curl
 sudo pacman -S --noconfirm --needed dmidecode
