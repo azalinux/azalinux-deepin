@@ -17,7 +17,7 @@ sudo pacman -S linux-headers --noconfirm --needed
 sudo pacman -S deepin deepin-extra --noconfirm --needed
 
 sudo pacman -S --noconfirm --needed firewalld
-#sudo pacman -S --noconfirm --needed xorg
+sudo pacman -S --noconfirm --needed xorg
 sudo pacman -S --noconfirm --needed xf86-video-amdgpu
 sudo pacman -S --noconfirm --needed lightdm
 sudo pacman -S --noconfirm --needed lightdm-gtk-greeter
