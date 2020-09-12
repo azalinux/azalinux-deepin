@@ -18,7 +18,7 @@ sudo pacman -S deepin deepin-extra --noconfirm --needed
 
 sudo pacman -S --noconfirm --needed firewalld
 sudo pacman -S --noconfirm --needed xorg
-sudo pacman -S --noconfirm --needed xf86-video-amdgpu
+#sudo pacman -S --noconfirm --needed xf86-video-amdgpu
 sudo pacman -S --noconfirm --needed lightdm
 sudo pacman -S --noconfirm --needed lightdm-gtk-greeter
 sudo pacman -S --noconfirm --needed networkmanager
@@ -116,14 +116,14 @@ sudo pacman -S --noconfirm --needed bind-tools
 sudo pacman -S --noconfirm --needed nfs-utils
 
 sh lightdm.sh
-sh wallpaper.sh
+#sh wallpaper.sh
 
 sh samba_install.sh
 
 sh trizen.sh
 
-echo "### Installing Vivaldi Snapshot ###"
-sh install-vivaldi.sh
+#echo "### Installing Vivaldi Snapshot ###"
+#sh install-vivaldi.sh
 
 trizen -S --noconfirm --needed --noedit pamac-aur-git
 trizen -S --noconfirm --needed --noedit google-chrome-dev
@@ -140,7 +140,7 @@ trizen -S --noconfirm --needed --noedit inxi-git
 #trizen -S --noconfirm --needed --noedit isousb
 trizen -S --noconfirm --needed --noedit qjournalctl 
 
-sh deepin_custom_setup.sh
+#sh deepin_custom_setup.sh
 
 #sudo /usr/bin/vnclicense -add P98BK-34AF4-V2K63-TMBH8-BYNRA
 
